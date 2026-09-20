@@ -1,7 +1,0 @@
-orthofinder -h
-  	
-#wrap for sbatch run
-sbatch -c 16 --mem 64G --exclude hmem001,hmem002 / 
--t 36:00:00 --mail-type=ALL --mail-user=r03ac23@abdn.ac.uk /
---wrap "orthofinder -d -f orthofinder2026_longestIsoforms_in_CDS /
--o orthofinder2026_longestIsoforms_out_CDS -t 16 -a 16 -M msa"
