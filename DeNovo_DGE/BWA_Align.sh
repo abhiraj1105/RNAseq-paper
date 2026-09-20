@@ -1,8 +1,7 @@
 #!/bin/bash
 
-## Bwa align RNA-seq reads against CDS sequences predicted by TransDecoder from the Trinity de novo assembly created from the same reads.
-
-
+## Bwa align RNA-seq reads against CDS sequences predicted by TransDecoder from the Trinity de novo assembly
+##created from the same reads.
 
 #SBATCH --partition=uoa-compute
 #SBATCH --array=1-12								# 1-N where N is the number of FASTA files to be aligned
