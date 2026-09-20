@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
 
+#extracts the longes isoform per CDS 
 use strict;
 use warnings;
 
